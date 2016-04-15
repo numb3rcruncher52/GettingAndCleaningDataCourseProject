@@ -1,0 +1,11 @@
+---
+title: "CodeBook"
+author: "Max"
+date: "April 14, 2016"
+output: html_document
+---
+
+This is a codebook that describes the variables, the data, and any 
+transformations or work performed while cleaning up the Samsung Galaxy S
+smartphone accelerometer data for the Getting and Cleaning Data Course Project
+
