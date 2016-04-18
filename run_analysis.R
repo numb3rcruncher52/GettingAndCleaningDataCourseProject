@@ -55,4 +55,4 @@ data <- data %>% mutate(activity = V2) %>% select(-V2)
 
 ## Create another tidy data set with the average of each variable for each
 ## activity and subject
-
+tidy <- data %>% group_by(activity, subject) %>% summarise_each(funs(mean))
